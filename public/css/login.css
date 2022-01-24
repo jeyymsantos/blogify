@@ -1,0 +1,30 @@
+
+.title {
+    font-style: bold;
+    text-align: center;
+    color: rgb(22, 114, 190);
+}
+
+.main {
+    background-color: white;
+    border-radius: 50px;
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.left-login{
+    background: url("/img/login.png") center no-repeat;
+    background-size: contain;
+}
+
+.right-login{
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+
+*{
+    font-family: 'Nova Mono';
+}
+
+body {
+    /* background: url('/img/bg/login.jpg');
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size: cover; */
+
+    background-image: linear-gradient(to right, #09C9E0 , #255DCE, #047CCA, #02A4EC);
+    
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+h1 {
+    font-family: 'Rock Salt';
+    font-size: 35px;
+}
+
+h2{
+    font-family: 'Calligraffitti';
+    font-size: 25px;
+    margin-top: -2%;
+}
+
+input[type=email], input[type=password]{
+    margin: auto;
+    border-radius: 20px;
+}
+
+button[type=submit] {
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}

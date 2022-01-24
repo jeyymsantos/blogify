@@ -1,0 +1,57 @@
+
+h1 {
+    font-family: 'Rock Salt';
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Calligraffitti';
+    font-size: 25px;
+    margin-top: -2%;
+}
+
+input[type=email], input[type=password], input[type=text]{
+    margin: auto;
+    border-radius: 20px;
+}
+
+button[type=submit] {
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.title {
+    font-style: bold;
+    text-align: center;
+    color: rgb(22, 114, 190);
+}
+
+.main {
+    background-color: white;
+    border-radius: 50px;
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.right-login{
+    background: url("/img/login.svg") center no-repeat;
+    background-size: cover;
+}
+
+.left-login{
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+
